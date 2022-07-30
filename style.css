@@ -1,0 +1,133 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+section{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vh;
+}
+section header{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20;
+
+}
+section header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+section header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+section header ul li a{
+  color: #111;
+  text-decoration: none;
+  font-size: 13px;
+
+}
+section header ul li button{
+  background: #4584ef;
+  border: none;
+  outline: none;
+  padding: 8px 30px;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main{
+  width: 500px;
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.serbox{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.ser{
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  padding-right: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 16px;
+}
+.icon{
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0px;
+  width: 565px;
+  display: flex;
+  padding: 12px 20px ;
+  margin: 0px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+.button{
+  margin-top: 20px;
+}
+.button button{
+  margin: 0 5px;
+  padding: 12px 20px;
+  color: #555;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 1px solid transparent;
+  outline: none;
+}
+.button button:hover{
+  border-radius: 1px solid #ccc;
+}
+.lang{
+  margin-top: 20px;
+
+}
+.footer{
+  position: absolute;
+  top: 885px;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0,0,0,0, 0.5);
+}
+.row ul{
+  display: flex;
+
+}
+.row ul li{
+  list-style: none;
+}
+.row ul li a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 25px;
+}
